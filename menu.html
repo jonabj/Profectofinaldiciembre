@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sidemenu.css">
+    <title>Viajes cruceros</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Molle:ital@1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<!-- IMAGEN DE FONDO: <div class="fondo"><img src="multimedia/crucero-hd.jpg" alt="imagen">  -->
+
+<header>
+  <header>
+    <h1 class="titulo1">Web de nutricion Interpresonal</h1>
+  </header>
+  <div class="contenedor">
+    <main class="section">
+      <article class="">
+        <h1>titulo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis.</p>
+      </article>
+      <article class="">
+        <h1>titulo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </article>
+      <article class="">
+        <h1>titulo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+      </article>
+    </main>
+    <aside class="aside">
+      <div>
+        <img src="multimedia/foto1.jpg" alt="foto1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+      </div>
+      <div>
+        <img src="multimedia/foto2.jpg" alt="foto2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+      </div>
+      <div>
+        <img src="multimedia/foto3.jpg" alt="foto3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+      </div>
+
+    </aside>
+    <div class="relacionados">
+      Otros temas
+
+    </div>
+    <div class="relacionados">
+      Otros temas
+
+    </div>
+    <div class="relacionados">
+      Otros temas
+
+    </div>
+    <div class="relacionados">
+      Otros temas
+
+    </div>
+    <div class="relacionados">
+      Otros temas
+
+    </div>
+    <div class="footer">
+      <h4> Pagina echa por Bruni Jonathan</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labor</p>
+
+    </div>
+
+  </div>
+
+</div>
+</div>
+</header>
+
+<!-- NOTE: SECTION  -->
+
+
+
+<!-- NOTE: ASIDE -->
+
+
+<!-- NOTE:   <div class="texto2">
+    <button data-v-83246d5a="" title="Partnership"
+    data-msgid="Watch Video" data-current-language="es" class="btn btn-orange btn-lg" style="margin-bottom: 10px; z-index: 96;"
+    >Ver Vídeo</button>  </div> -->
+
+<nav>
+  <div id="sidemenu" class="menu-collapsed">
+    <!-- HEADER   -->
+    <div id="header">
+      <div id="title" class=""><span> Nutrirte-BruniJona</span></div>
+      <div id="menu-btn">
+        <div class="btn-hamburger"></div>
+        <div class="btn-hamburger"></div>
+        <div class="btn-hamburger"></div>
+      </div>
+    </div>
+    <!-- PROFILE  -->
+    <div id="profile">
+      <div id="photo"><img src="multimedia/perfil.jpg" alt=""></div>
+      <div id="name"><span>Bruni Jona</span></div>
+
+    </div>
+
+    <!-- ITEM  -->
+    <div id="menu-items">
+      <div class="item">
+        <a href="#">
+          <div class="icon"><img src="multimedia/barquito.png" alt=""></div>
+          <div class="title"><span>Cloud Services</span></div>
+        </a>
+      </div>
+      <div class="item.separator">
+        <div class="item">
+          <a href="#">
+            <div class="icon"><img src="multimedia/barquito.png" alt=""></div>
+            <div class="title"><span>Cloud Services</span></div>
+          </a>
+        </div>
+      </div>
+      <div class="item.separator">
+        <div class="item">
+          <a href="#">
+            <div class="icon"><img src="multimedia/barquito.png" alt=""></div>
+            <div class="title"><span>Cloud Services</span></div>
+          </a>
+        </div>
+      </div>
+      <div class="item.separator">
+        <div class="item">
+          <a href="#">
+            <div class="icon"><img src="multimedia/barquito.png" alt=""></div>
+            <div class="title"><span>Cloud Services</span></div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</nav> <!-- este div junto con ID= sidemenu, posiblemente me traiga problemas -->
+
+
+<!-- NOTE:SECCION  -->
+
+<div class="icono">
+  <a href="https://wa.me/5491158880268" target="_blank"><img src="multimedia/whatsapp.png" alt="Contactate Aqui!!"></a>
+</div>
+
+
+<script>
+  const btn = document.querySelector("#menu-btn");
+  const menu = document.querySelector("#sidemenu");
+  btn.addEventListener("click" , e => {
+    menu.classList.toggle("menu-expanded");
+    menu.classList.toggle("menu-collapsed");
+
+    document.querySelector("body").classList.toggle("body-expanded")
+  })
+</script>
+  </body>
+</html>
